@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/form_title"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginBottom="20dp" />
+
+        <EditText
+            android:id="@+id/etNim"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_nim"
+            android:inputType="number"
+            android:importantForAutofill="no"
+            android:layout_marginBottom="12dp" />
+
+        <EditText
+            android:id="@+id/etNama"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_nama"
+            android:inputType="textPersonName"
+            android:autofillHints="personName"
+            android:layout_marginBottom="12dp" />
+
+        <EditText
+            android:id="@+id/etAlamat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_alamat"
+            android:inputType="textPostalAddress"
+            android:autofillHints="postalAddress"
+            android:layout_marginBottom="12dp" />
+
+        <EditText
+            android:id="@+id/etJurusan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_jurusan"
+            android:inputType="text"
+            android:importantForAutofill="no"
+            android:layout_marginBottom="12dp" />
+
+        <EditText
+            android:id="@+id/etNomorHp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_nomor_hp"
+            android:inputType="phone"
+            android:autofillHints="phone"
+            android:layout_marginBottom="20dp" />
+
+        <Button
+            android:id="@+id/btnSimpan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_simpan" />
+
+        <Button
+            android:id="@+id/btnBatal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_batal"
+            android:layout_marginTop="8dp" />
+
+    </LinearLayout>
+
+</ScrollView>

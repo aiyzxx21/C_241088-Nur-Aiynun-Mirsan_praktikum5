@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">prak5</string>
+    <string name="form_title">Form Data Mahasiswa</string>
+    <string name="hint_nim">Masukkan NIM</string>
+    <string name="hint_nama">Masukkan Nama Lengkap</string>
+    <string name="hint_alamat">Masukkan Alamat</string>
+    <string name="hint_jurusan">Masukkan Jurusan</string>
+    <string name="hint_nomor_hp">Masukkan Nomor HP</string>
+    <string name="btn_simpan">Simpan Data</string>
+    <string name="btn_batal">Batal</string>
+</resources>
